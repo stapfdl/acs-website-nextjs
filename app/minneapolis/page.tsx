@@ -7,12 +7,12 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "IT Support Minneapolis MN | Managed IT Services",
+  title: "IT Support Minneapolis MN | Managed IT",
   description:
     "Managed IT, cybersecurity & cloud for Minneapolis, MN. Local technicians, flat-rate pricing, same-day response. Serving downtown, Uptown & NE Minneapolis.",
   alternates: { canonical: "https://acloudsol.com/minneapolis" },
   openGraph: {
-    title: "Managed IT Services Minneapolis | Accelerated Cloud Solutions",
+    title: "IT Support Minneapolis MN | Managed IT",
     description:
       "Managed IT, cybersecurity & cloud for Minneapolis, MN. Local technicians, flat-rate pricing, same-day response.",
     url: "https://acloudsol.com/minneapolis",

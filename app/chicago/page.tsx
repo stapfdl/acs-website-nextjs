@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Chicago Suburbs IL | IT Support",
+  title: "Managed IT Services Chicago Suburbs | ACS",
   description:
     "Managed IT & cybersecurity for Chicago suburbs. Serving Schaumburg, Arlington Heights, Naperville & Oak Brook. Flat-rate pricing, same-day response.",
   alternates: { canonical: "https://acloudsol.com/chicago" },
   openGraph: {
-    title: "Managed IT Services Chicago | Accelerated Cloud Solutions",
+    title: "Managed IT Services Chicago Suburbs | ACS",
     description:
       "Managed IT & cybersecurity for Chicago suburbs. Serving Schaumburg, Arlington Heights, Naperville & Oak Brook. Flat-rate pricing, same-day response.",
     url: "https://acloudsol.com/chicago",

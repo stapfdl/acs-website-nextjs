@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Minnetonka MN | IT Support",
+  title: "Managed IT Services Minnetonka MN | ACS",
   description:
     "Managed IT, cybersecurity & Microsoft 365 for Minnetonka, MN. Flat-rate pricing, no contracts. Serving Opus Business Park, Ridgedale & the west metro.",
   alternates: { canonical: "https://acloudsol.com/minnetonka" },
   openGraph: {
-    title: "Managed IT Services Minnetonka | Accelerated Cloud Solutions",
+    title: "Managed IT Services Minnetonka MN | ACS",
     description:
       "Managed IT, cybersecurity & Microsoft 365 for Minnetonka, MN. Flat-rate pricing, no contracts. Serving Opus Business Park, Ridgedale & the west metro.",
     url: "https://acloudsol.com/minnetonka",

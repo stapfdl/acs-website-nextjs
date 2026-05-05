@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Accelerated Cloud Solutions | Managed IT Services Minneapolis–St. Paul",
-    template: "%s | Accelerated Cloud Solutions",
+    default: "Managed IT Services Minneapolis | Accelerated Cloud Solutions",
+    template: "%s",
   },
   description:
     "Managed IT services, cybersecurity, cloud, and vCIO consulting for Minneapolis–St. Paul and Chicago suburbs. 25+ years of experience. Call 888-955-5001.",

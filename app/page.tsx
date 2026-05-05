@@ -7,12 +7,12 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Minneapolis | Accelerated Cloud Solutions",
+  title: "Managed IT Services Minneapolis | ACS",
   description:
     "Managed IT, cybersecurity, cloud & AI for Minneapolis–St. Paul and Chicago suburb businesses. Flat-rate pricing, local support, no long-term contracts.",
   alternates: { canonical: "https://acloudsol.com" },
   openGraph: {
-    title: "Managed IT Services Minneapolis | Accelerated Cloud Solutions",
+    title: "Managed IT Services Minneapolis | ACS",
     description:
       "Managed IT, cybersecurity, cloud & AI for Minneapolis–St. Paul and Chicago suburb businesses. Flat-rate pricing, local support, no long-term contracts.",
     url: "https://acloudsol.com",

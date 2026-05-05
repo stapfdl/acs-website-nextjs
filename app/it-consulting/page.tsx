@@ -3,12 +3,12 @@ import Link from "next/link";
 import { BarChart3, CheckCircle2, ArrowRight, Phone, Map, DollarSign, Users, TrendingUp, FileText, Lightbulb } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "IT Consulting & vCIO Services Minneapolis | ACS",
+  title: "IT Consulting & vCIO Minneapolis | ACS",
   description:
     "Strategic IT consulting & virtual CIO services for Minneapolis–St. Paul businesses. IT roadmaps, budgeting, vendor management & technology strategy.",
   alternates: { canonical: "https://acloudsol.com/it-consulting" },
   openGraph: {
-    title: "IT Consulting & vCIO Services Minneapolis | ACS",
+    title: "IT Consulting & vCIO Minneapolis | ACS",
     description: "Strategic IT consulting & virtual CIO services for Minneapolis–St. Paul businesses. IT roadmaps, budgeting, vendor management & technology strategy.",
     url: "https://acloudsol.com/it-consulting",
   },

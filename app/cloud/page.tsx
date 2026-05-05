@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Cloud, CheckCircle2, ArrowRight, Phone, Server, Users, Globe, Shield, Zap, Settings } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Cloud & Microsoft 365 Services Minneapolis | ACS",
+  title: "Cloud & Microsoft 365 Minneapolis | ACS",
   description:
     "Microsoft 365, Azure cloud migration & modern workplace solutions for Minneapolis–St. Paul businesses. Certified Microsoft partner. Flat-rate pricing.",
   alternates: { canonical: "https://acloudsol.com/cloud" },
   openGraph: {
-    title: "Cloud & Microsoft 365 Services Minneapolis | ACS",
+    title: "Cloud & Microsoft 365 Minneapolis | ACS",
     description: "Microsoft 365, Azure cloud migration & modern workplace solutions for Minneapolis–St. Paul businesses. Certified Microsoft partner.",
     url: "https://acloudsol.com/cloud",
   },

@@ -82,7 +82,7 @@ export const posts: Post[] = [
     id: 2,
     slug: "ai-automation-small-business",
     category: "AI Solutions",
-    title: "How AI Automation Is Leveling the Playing Field for Small Businesses",
+    title: "How AI Automation Levels the Field for Small Businesses",
     excerpt:
       "AI tools once reserved for Fortune 500 companies are now accessible to businesses with 15–50 employees. We break down the top use cases delivering real ROI.",
     date: "March 14, 2025",
@@ -123,7 +123,7 @@ export const posts: Post[] = [
     id: 3,
     slug: "microsoft-365-copilot-guide",
     category: "Cloud",
-    title: "Microsoft 365 Copilot: A Practical Guide for Small Business Teams",
+    title: "Microsoft 365 Copilot: A Guide for Small Business Teams",
     excerpt:
       "Copilot is embedded across Word, Excel, Teams, and Outlook. Here's how your team can start using it today to save hours every week.",
     date: "February 27, 2025",

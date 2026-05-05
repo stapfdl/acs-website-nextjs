@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services St. Paul MN | IT Support",
+  title: "Managed IT Services St. Paul MN | ACS",
   description:
     "Managed IT & cybersecurity for St. Paul, MN. Flat-rate pricing, no contracts. Serving Cathedral Hill, Lowertown, Highland Park & the east metro.",
   alternates: { canonical: "https://acloudsol.com/st-paul" },
   openGraph: {
-    title: "Managed IT Services St. Paul | Accelerated Cloud Solutions",
+    title: "Managed IT Services St. Paul MN | ACS",
     description:
       "Managed IT & cybersecurity for St. Paul, MN. Flat-rate pricing, no contracts. Serving Cathedral Hill, Lowertown, Highland Park & the east metro.",
     url: "https://acloudsol.com/st-paul",

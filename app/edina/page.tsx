@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Edina MN | IT Support",
+  title: "Managed IT Services Edina MN | ACS",
   description:
     "Managed IT & cybersecurity for Edina, MN. Trusted by financial & professional firms near 50th & France and Southdale. Flat-rate, no contracts.",
   alternates: { canonical: "https://acloudsol.com/edina" },
   openGraph: {
-    title: "Managed IT Services Edina | Accelerated Cloud Solutions",
+    title: "Managed IT Services Edina MN | ACS",
     description:
       "Managed IT & cybersecurity for Edina, MN. Trusted by financial & professional firms near 50th & France and Southdale. Flat-rate, no contracts.",
     url: "https://acloudsol.com/edina",

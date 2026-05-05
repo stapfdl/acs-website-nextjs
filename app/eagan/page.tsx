@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Eagan MN | IT Support",
+  title: "Managed IT Services Eagan MN | ACS",
   description:
     "Managed IT & cybersecurity for Eagan, MN. Serving Eagandale Business Park, Lone Oak & Cedar Grove. Flat-rate pricing, same-day response, no contracts.",
   alternates: { canonical: "https://acloudsol.com/eagan" },
   openGraph: {
-    title: "Managed IT Services Eagan | Accelerated Cloud Solutions",
+    title: "Managed IT Services Eagan MN | ACS",
     description:
       "Managed IT & cybersecurity for Eagan, MN. Serving Eagandale Business Park, Lone Oak & Cedar Grove. Flat-rate pricing, same-day response, no contracts.",
     url: "https://acloudsol.com/eagan",

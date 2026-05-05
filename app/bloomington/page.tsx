@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Bloomington MN | IT Support",
+  title: "Managed IT Services Bloomington MN | ACS",
   description:
     "Managed IT & cybersecurity for Bloomington, MN. ACS is HQ'd here — local techs, flat-rate pricing, 24/7 monitoring. Serving the south metro.",
   alternates: { canonical: "https://acloudsol.com/bloomington" },
   openGraph: {
-    title: "Managed IT Services Bloomington | Accelerated Cloud Solutions",
+    title: "Managed IT Services Bloomington MN | ACS",
     description:
       "Managed IT & cybersecurity for Bloomington, MN. ACS is HQ'd here — local techs, flat-rate pricing, 24/7 monitoring. Serving the south metro.",
     url: "https://acloudsol.com/bloomington",

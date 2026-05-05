@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Brain, CheckCircle2, ArrowRight, Phone, Zap, Bot, BarChart2, Workflow, MessageSquare, Lightbulb } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI Business Solutions Minneapolis | Automation & AI | ACS",
+  title: "AI Business Solutions Minneapolis | ACS",
   description:
     "AI automation, Microsoft Copilot & workflow solutions for Minneapolis–St. Paul SMBs. Reduce costs, save time & gain competitive advantages with AI.",
   alternates: { canonical: "https://acloudsol.com/ai-solutions" },

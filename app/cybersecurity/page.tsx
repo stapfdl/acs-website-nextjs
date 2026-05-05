@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Shield, CheckCircle2, ArrowRight, Phone, Lock, Eye, AlertTriangle, FileCheck, Wifi, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Cybersecurity Services Minneapolis–St. Paul | ACS",
+  title: "Cybersecurity Services Minneapolis | ACS",
   description:
     "Enterprise cybersecurity for Minneapolis–St. Paul SMBs. Threat detection, endpoint protection, compliance, email security & incident response. No long-term contracts.",
   alternates: { canonical: "https://acloudsol.com/cybersecurity" },
   openGraph: {
-    title: "Cybersecurity Services Minneapolis–St. Paul | ACS",
+    title: "Cybersecurity Services Minneapolis | ACS",
     description: "Enterprise cybersecurity for Minneapolis–St. Paul SMBs. Threat detection, endpoint protection, compliance, email security & incident response.",
     url: "https://acloudsol.com/cybersecurity",
   },

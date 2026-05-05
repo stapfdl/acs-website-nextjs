@@ -4,12 +4,12 @@ import { Calendar, Clock, Tag, ArrowRight, ChevronRight } from "lucide-react";
 import { posts, categoryColors } from "@/lib/newsData";
 
 export const metadata: Metadata = {
-  title: "IT News & Insights | Accelerated Cloud Solutions Blog",
+  title: "IT News & Insights | ACS Blog",
   description:
     "IT tips, cybersecurity alerts, cloud updates, and AI insights for small businesses in Minneapolis–St. Paul and Chicago suburbs.",
   alternates: { canonical: "https://acloudsol.com/news" },
   openGraph: {
-    title: "IT News & Insights | Accelerated Cloud Solutions Blog",
+    title: "IT News & Insights | ACS Blog",
     description: "IT tips, cybersecurity alerts, cloud updates, and AI insights for small businesses.",
     url: "https://acloudsol.com/news",
   },

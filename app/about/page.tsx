@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Award, Users, Shield, TrendingUp, ArrowRight, Phone, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Accelerated Cloud Solutions | Minneapolis IT Company",
+  title: "About ACS | Minneapolis IT Company",
   description:
     "ACS is a Minneapolis-based managed IT services provider with 25+ years of experience helping small businesses with 20–300 employees leverage technology strategically.",
   alternates: { canonical: "https://acloudsol.com/about" },
   openGraph: {
-    title: "About Accelerated Cloud Solutions | Minneapolis IT Company",
+    title: "About ACS | Minneapolis IT Company",
     description: "ACS is a Minneapolis-based managed IT services provider with 25+ years of experience helping small businesses leverage technology strategically.",
     url: "https://acloudsol.com/about",
   },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Accelerated Cloud Solutions",
+  title: "Privacy Policy | ACS",
   description:
     "Read the Accelerated Cloud Solutions privacy policy. We are committed to protecting your data and never sell your personal information to third parties.",
   alternates: { canonical: "https://acloudsol.com/privacy" },

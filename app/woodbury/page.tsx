@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Woodbury MN | IT Support",
+  title: "Managed IT Services Woodbury MN | ACS",
   description:
     "Managed IT & cybersecurity for Woodbury, MN. Serving Woodbury Lakes, Radio Drive & Bielenberg Drive. Flat-rate pricing, same-day response, no contracts.",
   alternates: { canonical: "https://acloudsol.com/woodbury" },
   openGraph: {
-    title: "Managed IT Services Woodbury | Accelerated Cloud Solutions",
+    title: "Managed IT Services Woodbury MN | ACS",
     description:
       "Managed IT & cybersecurity for Woodbury, MN. Serving Woodbury Lakes, Radio Drive & Bielenberg Drive. Flat-rate pricing, same-day response, no contracts.",
     url: "https://acloudsol.com/woodbury",

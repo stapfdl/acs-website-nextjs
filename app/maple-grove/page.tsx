@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 
 export const metadata: Metadata = {
-  title: "Managed IT Services Maple Grove MN | IT Support",
+  title: "Managed IT Services Maple Grove MN | ACS",
   description:
     "Managed IT & cybersecurity for Maple Grove, MN. Flat-rate pricing, same-day response, no contracts. Serving Arbor Lakes, Elm Creek & the northwest metro.",
   alternates: { canonical: "https://acloudsol.com/maple-grove" },
   openGraph: {
-    title: "Managed IT Services Maple Grove | Accelerated Cloud Solutions",
+    title: "Managed IT Services Maple Grove MN | ACS",
     description:
       "Managed IT & cybersecurity for Maple Grove, MN. Flat-rate pricing, same-day response, no contracts. Serving Arbor Lakes, Elm Creek & the northwest metro.",
     url: "https://acloudsol.com/maple-grove",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Accelerated Cloud Solutions",
+  title: "Terms of Service | ACS",
   description:
     "Review the Accelerated Cloud Solutions terms of service. Our terms govern use of our website and managed IT, cybersecurity, and cloud services.",
   alternates: { canonical: "https://acloudsol.com/terms" },
