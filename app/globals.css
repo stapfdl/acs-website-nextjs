@@ -1,0 +1,233 @@
+/* ============================================================
+   ACS WEBSITE — "Signal & Clarity" Design System
+   Deep Slate/Navy base | Electric Blue accent | Amber CTAs
+   Fonts: Barlow (display) + DM Sans (body)
+   ============================================================ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.5rem;
+  --background: 220 30% 97%;
+  --foreground: 220 20% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 20% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 20% 15%;
+  --primary: 220 90% 52%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 220 15% 95%;
+  --secondary-foreground: 220 20% 25%;
+  --muted: 220 15% 94%;
+  --muted-foreground: 220 10% 50%;
+  --accent: 220 15% 94%;
+  --accent-foreground: 220 20% 15%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 220 15% 88%;
+  --input: 220 15% 88%;
+  --ring: 220 90% 52%;
+}
+
+.dark {
+  --background: 220 40% 8%;
+  --foreground: 220 10% 95%;
+  --card: 220 35% 13%;
+  --card-foreground: 220 10% 95%;
+  --popover: 220 35% 13%;
+  --popover-foreground: 220 10% 95%;
+  --primary: 220 90% 52%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 220 30% 18%;
+  --secondary-foreground: 220 10% 92%;
+  --muted: 220 30% 18%;
+  --muted-foreground: 220 10% 60%;
+  --accent: 220 30% 18%;
+  --accent-foreground: 220 10% 92%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 220 20% 22%;
+  --input: 220 20% 22%;
+  --ring: 220 90% 52%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+
+  /* ACS Dark Section */
+  .acs-dark-section {
+    background-color: #0d1829;
+    color: #f0f2f7;
+  }
+
+  /* ACS Card on Dark */
+  .acs-card-dark {
+    background-color: #162035;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .acs-card-dark:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(30, 144, 255, 0.25);
+    border-color: rgba(30, 144, 255, 0.5);
+  }
+
+  /* ACS Blue Button */
+  .acs-btn-primary {
+    background-color: #1e6fff;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  }
+  .acs-btn-primary:hover {
+    background-color: #3d84ff;
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(30, 111, 255, 0.4);
+  }
+
+  /* ACS Amber Button */
+  .acs-btn-amber {
+    background-color: #f5a623;
+    color: #0d1829;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  }
+  .acs-btn-amber:hover {
+    background-color: #f7b84a;
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(245, 166, 35, 0.4);
+  }
+
+  /* ACS Outline Button */
+  .acs-btn-outline {
+    border: 2px solid #1e6fff;
+    color: #1e6fff;
+    background: transparent;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+  }
+  .acs-btn-outline:hover {
+    background-color: #1e6fff;
+    color: white;
+    transform: scale(1.02);
+  }
+
+  /* ACS Blue Glow Text */
+  .acs-glow-text {
+    color: #60a5fa;
+    text-shadow: 0 0 30px rgba(30, 144, 255, 0.5);
+  }
+
+  /* Diagonal clip divider */
+  .acs-clip-bottom {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    padding-bottom: 8rem;
+    margin-bottom: -4rem;
+  }
+  .acs-clip-top {
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 8rem;
+    margin-top: -4rem;
+  }
+
+  /* Fade-in-up animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  .animate-delay-100 { animation-delay: 0.1s; }
+  .animate-delay-200 { animation-delay: 0.2s; }
+  .animate-delay-300 { animation-delay: 0.3s; }
+  .animate-delay-400 { animation-delay: 0.4s; }
+  .animate-delay-500 { animation-delay: 0.5s; }
+
+  /* Service card left border accent */
+  .acs-service-card {
+    border-left: 3px solid #1e6fff;
+    background: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .acs-service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(30, 111, 255, 0.15);
+  }
+
+  /* Nav link animation */
+  .nav-link {
+    position: relative;
+    color: rgba(220, 228, 245, 0.85);
+    transition: color 0.2s ease;
+  }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #1e6fff;
+    transition: width 0.25s ease;
+  }
+  .nav-link:hover {
+    color: white;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Dot grid background */
+  .acs-dot-grid {
+    background-image: radial-gradient(circle, rgba(30, 144, 255, 0.15) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+}
