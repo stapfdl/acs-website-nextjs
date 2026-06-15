@@ -1,0 +1,2 @@
+# Redirect old SPA hash routes if any existed
+# /old-path  /new-path  301
