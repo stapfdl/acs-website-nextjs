@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Calendar, Clock, Tag, ArrowRight, ArrowLeft, Phone } from "lucide-react";
 import { posts, categoryColors } from "@/lib/newsData";
 
-iinterface Props {
+interface Props {
   params: Promise<{ slug: string }>;
 }
 export async function generateStaticParams() {
@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const post = posts.find((p) => p.slug === slug);;
+  const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
   return {
     title: `${post.title} | ACS Blog`,
